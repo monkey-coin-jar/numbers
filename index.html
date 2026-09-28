@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Numbers</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    background: #0f1115;
+    color: #e8e8e8;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  #routes {
+    display: flex;
+    gap: 30px;
+  }
+  .route {
+    width: 280px;
+    background: #1a1d24;
+    border-radius: 16px;
+    padding: 32px 24px;
+    text-align: center;
+    border: 1px solid #2a2e38;
+  }
+  .route .name {
+    font-size: 0.95rem;
+    color: #9aa0ab;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 16px;
+  }
+  .route .minutes {
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .route .unit {
+    font-size: 1rem;
+    color: #9aa0ab;
+    margin-top: 6px;
+  }
+  #updated {
+    font-size: 0.85rem;
+    color: #6b7280;
+  }
+</style>
+</head>
+<body>
+<div id="routes">
+  <div class="route">
+    <div class="name">A</div>
+    <div class="minutes">24</div>
+    <div class="unit">minutes</div>
+  </div>
+  <div class="route">
+    <div class="name">B</div>
+    <div class="minutes">28</div>
+    <div class="unit">minutes</div>
+  </div>
+</div>
+<div id="updated">Updated 2026-09-28T19:00:35</div>
+</body>
+</html>
